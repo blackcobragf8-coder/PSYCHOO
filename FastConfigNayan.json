@@ -1,0 +1,32 @@
+{
+	"Language": "en",
+	"PreKey": "",
+	"AutoUpdate": false,
+	"MainColor": "#f0e50c",
+	"MainName": "[ NAYAN ]",
+	"Uptime": true,
+	"Config": "default",
+	"Login2Fa": false,
+	"AutoLogin": false,
+	"BroadCast": true,
+	"AuthString": "SD4S XQ32 O2JA WXB3 FUX2 OPJ7 Q7JZ 4R6Z | https://i.imgur.com/RAg3rvw.png Please remove this !, Recommend If You Using getUserInfoV2",
+	"EncryptFeature": true,
+	"ResetDataLogin": false,
+	"AutoRestartMinutes": 0,
+	"RestartMQTT_Minutes": 0,
+	"DevMode": false,
+	"HTML": {
+		"HTML": true,
+		"UserName": "Guest",
+		"MusicLink": ""
+	},
+	"AntiGetInfo": {
+		"Database_Type": "default",
+		"AntiGetThreadInfo": true,
+		"AntiGetUserInfo": true
+	},
+	"Stable_Version": {
+		"Accept": false,
+		"Version": ""
+	}
+}
