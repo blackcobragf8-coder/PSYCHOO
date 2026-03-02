@@ -14,8 +14,8 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("❤️")==0 || event.body.indexOf("❣️")==0 || event.body.indexOf("🖤")==0 || event.body.indexOf("💝")==0) {
 		var msg = {
-				body: "এতো ভালোবাসা কই পাও সোনা আমার বস টম মামা কে একটু ভালোবাসা দেও",
-				attachment: fs.createReadStream(__dirname + `/noprefix/atovlok.mp3`)
+				body: "এতো ভালোবাসা কই পাও সোনা আমার বস মিকি কে একটু ভালোবাসা দেও",
+				attachment: fs.createReadStream(__dirname + ``)
 			}
 			api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("🤨", event.messageID, (err) => {}, true)

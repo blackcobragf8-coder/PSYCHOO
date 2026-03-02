@@ -43,11 +43,11 @@ module.exports.run = async function({ api, event }) {
 
 ◑মেম্বারদের সব কমান্ড আমার পক্ষে পালনকরা সম্ভব না 😔
 
-◑আমার মিকি মামা  কে এড দিতে প্রথমে টাইপ করুন /add তারপর একটা স্পেস দিয়ে মামার আইডির লিংক দিন ☺️
+◑আমার মিকি  Boss এড দিতে প্রথমে টাইপ করুন /add তারপর একটা স্পেস দিয়ে মামার আইডির লিংক দিন ☺️
 
-◑মামার আইডি লিংক ☞ www.facebook.com/xaikomki365
+◑তার আইডি লিংক ☞ www.facebook.com/xaikomki420toxic420
 
-◑ Example--> /add www.facebook.com/xaikomki365🐰😗
+◑ Example--> /add www.facebook.com/xaikomki420toxic420🐰😗
 
 🐰\n\nUse ${global.config.PREFIX}help to see commands.\n\nexample :\n${global.config.PREFIX}mark (text)\n${global.config.PREFIX}lexi (text)\n${global.config.PREFIX}trump (text)\n${global.config.PREFIX}info 
 `, attachment: fs.createReadStream(__dirname + "/cache/joinmp4/hello.mp4")} ,threadID));

@@ -1,10 +1,18 @@
-touconst fs = require("fs");
+require("dotenv").config();
+const fs = require("fs");
 const login = require("fca-horizon-remake");
 
-var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // credential information
+const credentials = {
+  email: process.env.FB_EMAIL,
+  password: process.env.FB_PASSWORD
+};
 
 login(credentials, (err, api) => {
-    if(err) return console.error(err);
-    // login
-    fs.writeFileSync('appstate.json', JSON.stringify(api.getAppState())); //create appstate
+  if (err) {
+    console.error("❌ Login failed:", err);
+    return;
+  }
+
+  fs.writeFileSync("appstate.json", JSON.stringify(api.getAppState()));
+  console.log("✅ Login successful! appstate.json created.");
 });
